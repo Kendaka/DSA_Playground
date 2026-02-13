@@ -11,3 +11,6 @@ node3 = Node(30)
 # linking those nodes
 node1.next = node2
 node2.next = node3
+
+# assignment of head
+head = node1
