@@ -17,7 +17,7 @@ head = node1
 
 # example
 current = head
-target_index = 3 
+target_index = 3
 for i in range(target_index):
     current = current.next
-print(current.value) 
+print(current.value)
