@@ -6,3 +6,5 @@ def col(n):
     else:
         return 1 + col(3*n + 1)
     
+print(col(6))
+    
