@@ -7,4 +7,3 @@ def col(n):
         return 1 + col(3*n + 1)
     
 print(col(4))
-    
