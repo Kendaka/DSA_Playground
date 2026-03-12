@@ -30,7 +30,7 @@ print(col(4))
 # 20. Self Control - Frank Ocean
 # 21. Starman - David Bowie
 # 22. Andromeda - Weyes Blood
-# 23.1539 N. Calvert - JPEGMafia
+# 23. 1539 N. Calvert - JPEGMafia
 # 24. Helpelessness Blues - Fleet Foxes
 # 25. Tunnels - Arcade Fire
 # 26. Eraser - Nine Inch Nails
@@ -41,7 +41,7 @@ print(col(4))
 # 31. All along the Watchtower - Jimi Hendrix
 # 32. There is a Light That Never Goes Out - The Smiths
 # 33. Ain't it funny - Danny Brown
-# 34. Superfast Jellyfish - Gorillaz
+# 34. Unfinished Sympathy - Massive Attack
 # 35. Cherry-Coloured Funk - Cocteau Twins
 # 36. Shook Ones Pt.2 - Mobb Deep
 # 37. You got me - The Roots
