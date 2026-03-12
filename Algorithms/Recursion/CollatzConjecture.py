@@ -60,3 +60,11 @@ print(col(4))
 # 50. Circles - Mac Miller
 # 51. Viva la Vida - Coldplay
 # 52. Should Have Known Better - Sufjan Stevens
+# 53. Ex Factor - Lauryn Hill
+# 54. Codeine Crazy - Future
+# 55. Survival Tactics - Joey Bada$$
+# 56. Peso - A$AP Rocky
+# 57. It's been a long time - Rakim
+# 58. Ice Cream - Raekwon
+# 59. Palmolive - Freddie Gibbs
+
