@@ -52,3 +52,6 @@ print(col(4))
 # 42. Hot Head - Death Grips
 # 43. 3500 - Travis Scott
 # 44. Wyclef Jean - Young Thug
+# 45. BOOGIE - BROCKHAMPTON
+# 46. The place where he inserts the blade - Black Country, New Road
+# 47. 
