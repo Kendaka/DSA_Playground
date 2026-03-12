@@ -66,7 +66,7 @@ print(col(4))
 # 56. Sour Times - Portishead
 # 57. It's been a long time - Rakim
 # 58. Ice Cream - Raekwon & Ghostface Killah
-# 59. Palmolive - Freddie Gibbs
+# 59. Electric Relaxation - A tribe called Quest
 # 60. Slum Beautiful - Outkast
 # 61. Paranoid - Black Sabbath
 # 62. Track A Solo Dancer - Charles Mingus
