@@ -58,7 +58,7 @@ print(col(4))
 # 48. Wouldn't it be nice - The Beach Boys
 # 49. Listen Before I Go - Billie Eilish
 # 50. Circles - Mac Miller
-# 51. Viva la Vida - Coldplay
+# 51. Lullaby - The Cure
 # 52. Should Have Known Better - Sufjan Stevens
 # 53. Ex Factor - Lauryn Hill
 # 54. Codeine Crazy - Future
@@ -69,4 +69,5 @@ print(col(4))
 # 59. Palmolive - Freddie Gibbs
 # 60. Slum Beautiful - Outkast
 # 61. Paranoid - Black Sabbath
+# 62. Track A Solo Dancer - Charles Mingus
 
