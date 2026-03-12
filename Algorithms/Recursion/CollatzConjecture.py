@@ -47,7 +47,7 @@ print(col(4))
 # 37. You got me - The Roots
 # 38. NY State of Mind - Nas
 # 39. Meat Grinder - Madvillain
-# 40. Clout Cobain - Denzel Curry
+# 40. The dead flag blues - Godspeed You! Black Emperors
 # 41. Something - The Beatles
 # 42. Hot Head - Death Grips
 # 43. 3500 - Travis Scott
