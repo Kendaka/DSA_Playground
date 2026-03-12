@@ -65,6 +65,8 @@ print(col(4))
 # 55. Survival Tactics - Joey Bada$$
 # 56. Peso - A$AP Rocky
 # 57. It's been a long time - Rakim
-# 58. Ice Cream - Raekwon
+# 58. Ice Cream - Raekwon & Ghostface Killah
 # 59. Palmolive - Freddie Gibbs
+# 60. Slum Beautiful - Outkast
+# 61. 
 
