@@ -39,3 +39,16 @@ print(col(4))
 # 29. Run Away With Me - Carly Rae Jepsen
 # 30. Skinny Love - Bon Iver
 # 31. All along the Watchtower - Jimi Hendrix
+# 32. There is a Light That Never Goes Out - The Smiths
+# 33. Ain't it funny - Danny Brown
+# 34. Superfast Jellyfish - Gorillaz
+# 35. Cherry-Coloured Funk - Cocteau Twins
+# 36. Shook Ones Pt.2 - Mobb Deep
+# 37. You got me - The Roots
+# 38. NY State of Mind - Nas
+# 39. Meat Grinder - Madvillain
+# 40. Clout Cobain - Denzel Curry
+# 41. Something - The Beatles
+# 42. Hot Head - Death Grips
+# 43. 3500 - Travis Scott
+# 44. 
