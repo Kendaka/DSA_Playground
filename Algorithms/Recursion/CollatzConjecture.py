@@ -10,6 +10,7 @@ print(col(4))
 
 # Lift your skinny fists like antennas to heaven - Godspeed You! Black Emperor
 # To Pimp a Butterfly - Kendrick Lamar
+# 36 Chambers - Wu-Tang Clan
 # Vespertine - Bjork
 # In the court of the crimson king - King Crimson
 # House of Balloons - The Weeknd
