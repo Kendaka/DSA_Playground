@@ -20,5 +20,6 @@ print(col(4))
 # Abbey Road - The Beatles
 # The Glow Pt. 2 - The Microphones
 # The Disintegration - The Cures
+# MAster of Puppets - Metallica
 # Saturation - Brockhampton
 
