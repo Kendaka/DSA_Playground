@@ -11,6 +11,7 @@
 # Bonito Generation - Kero Kero Bonito
 # In the Aeroplane Over the Sea - Neutral Milk Hotel
 # Madvillainy - Madvillain
+# Soundtrack for the Blind - Swans
 # OK Computer - Radiohead
 # Abbey Road - The Beatles
 # Teen Dream - Beach House
@@ -22,6 +23,7 @@
 # Wish You Were Here - Pink Floyd
 # Ants from Up There - Black Country, New Road
 # Pet Sounds - The Beach Boys
+# Bitches Brew - Miles Davis
 # Bottomless Pit - Death Grips
 # LP1 - FKA Twigs
 # Helpessness Blues - Fleet Foxes
@@ -38,11 +40,13 @@
 # Saturation - Brockhampton
 # LP! - JPEGMAFIA
 # Rodeo - Travis Scott
+# Nevermind - Nirvana
 # Blonde - Frank Ocean
 # Unknown Pleasures - Joy Division
 # Funeral - Arcade Fire
 # Illmatic - Nas
 # Voodoo - D'Angelo
+# YS - Joanna Newsom
 # The Rise and Fall of Ziggy Stardust and the Spiders from Mars - David Bowies
 # Emotion - Carly Rae Jepsen
 # Goo - Sonic Youth
@@ -50,9 +54,13 @@
 # The Life of Pablo - Kanye West
 # Hell Hath No Fury - Clipse
 # Carrie and Lowell - Sufjan Stevens
-# Dragon New Warm Mountain I Believe in You - Big Thief
+# Call me if you get lost - Tyler, the Creator
+# Heaven or Las Vegas - Cocteau Twins
+# Bright Future - Adrianne Lenker
+# Either/Or - Elliott Smith
 # Mama's Gun - Erykah Badu
+# Endtroducing - DJ Shadow
 # Third - Portishead
-# Jeffrey - Young thug
+# Imaginal Disk - Magdalena Bay
 
 
