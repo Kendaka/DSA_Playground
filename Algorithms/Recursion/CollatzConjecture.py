@@ -25,5 +25,6 @@ print(col(4))
 # LP1 - FKA Twigs
 # MAster of Puppets - Metallica
 # Saturation - Brockhampton
+# Funeral - Arcade Fire
 # Goo - Sonic Youth
 
