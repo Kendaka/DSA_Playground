@@ -1,4 +1,4 @@
 class SinglyNode:
-    def __init__(self, head, next):
+    def __init__(self, data, next):
         head = 0
         self.next
