@@ -3,4 +3,6 @@ class SinglyNode:
         self.data = data
         self.next
 
-SinglyNode(10)
+node = SinglyNode(10)
+
+
