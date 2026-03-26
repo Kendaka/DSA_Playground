@@ -4,5 +4,5 @@ class SinglyNode:
         self.next
 
 node = SinglyNode(10)
-
+print(node)
 
