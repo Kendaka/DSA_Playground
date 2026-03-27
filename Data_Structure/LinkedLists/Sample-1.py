@@ -16,3 +16,8 @@ node1 = node2
 node2 = node3
 
 # Traversing
+curr = Head
+
+while curr:
+    print(curr)
+    curr = curr.next
