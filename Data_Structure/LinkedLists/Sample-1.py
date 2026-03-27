@@ -5,4 +5,3 @@ class SinglyNode:
 
 node = SinglyNode(10)
 print(node)
-
