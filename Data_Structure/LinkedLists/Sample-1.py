@@ -15,12 +15,12 @@ Head.next = node1
 node1.next = node2
 node2.next = node3
 
-# Traversing
-curr = Head
+# # Traversing
+# curr = Head
 
-while curr:
-    print(curr)
-    curr = curr.next
+# while curr:
+#     print(curr)
+#     curr = curr.next
 
 # Searching
 data = 20
