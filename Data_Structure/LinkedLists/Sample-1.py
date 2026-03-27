@@ -5,4 +5,4 @@ class SinglyNode: # creating blueprint
         self.next = next
 
 node = SinglyNode(10)
-print(node)
+print(node.data)
