@@ -26,10 +26,11 @@ node2.next = node3
 def search(head, data):
     curr = head
     while curr:
-        if curr == curr.data:
+        if data == curr.data:
             return True
         curr = curr.next
 
     return False
 
-search(Head, 25)
+found = search(Head, 20)
+print(found)
