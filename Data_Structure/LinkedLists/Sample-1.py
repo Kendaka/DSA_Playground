@@ -23,8 +23,8 @@ node2.next = node3
 #     curr = curr.next
 
 # Searching
-data = 20
-
+data = 25
+curr = Head
 while curr is not None:
     if curr.data == data:
         print('Found!')
