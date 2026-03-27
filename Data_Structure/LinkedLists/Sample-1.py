@@ -10,3 +10,7 @@ Head = SinglyNode(5)
 node1 = SinglyNode(10)
 node2 = SinglyNode(20)
 node3 = SinglyNode(30)
+
+Head.next = node1
+node1 = node2
+node2 = node3
