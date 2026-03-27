@@ -7,4 +7,5 @@ class SinglyNode: # creating blueprint
         return str(self.data)
 
 Head = SinglyNode(10)
+node1 = SinglyNode(20)
 node2 = SinglyNode(20)
