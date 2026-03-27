@@ -32,4 +32,4 @@ def search(head, data):
 
     return False
 
-search(25)
+search(Head, 25)
