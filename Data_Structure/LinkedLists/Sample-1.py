@@ -12,8 +12,8 @@ node2 = SinglyNode(20)
 node3 = SinglyNode(30)
 
 Head.next = node1
-node1 = node2
-node2 = node3
+node1.next = node2
+node2.next = node3
 
 # Traversing
 curr = Head
