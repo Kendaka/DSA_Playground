@@ -14,3 +14,5 @@ node3 = SinglyNode(30)
 Head.next = node1
 node1 = node2
 node2 = node3
+
+# Traversing
