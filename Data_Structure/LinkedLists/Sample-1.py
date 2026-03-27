@@ -8,4 +8,3 @@ class SinglyNode: # creating blueprint
 
 Head = SinglyNode(10)
 node2 = SinglyNode(20)
-print(node1.data)
