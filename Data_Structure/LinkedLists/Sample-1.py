@@ -3,6 +3,6 @@ class SinglyNode: # creating blueprint
         self.data = data
         self.next = next
 
-node = SinglyNode(10)
-node = SinglyNode(20)
-print(node.data)
+node1 = SinglyNode(10)
+node2 = SinglyNode(20)
+print(node1.data)
