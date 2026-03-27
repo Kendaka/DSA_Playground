@@ -24,3 +24,9 @@ while curr:
 
 # Searching
 data = 20
+
+while curr is not None:
+    if curr.data == data:
+        print('Found!')
+    else:
+        print("Not Found")    
