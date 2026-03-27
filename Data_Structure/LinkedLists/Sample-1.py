@@ -6,6 +6,6 @@ class SinglyNode: # creating blueprint
     def __str__(self):
         return str(self.data)
 
-node1 = SinglyNode(10)
+Head = SinglyNode(10)
 node2 = SinglyNode(20)
 print(node1.data)
