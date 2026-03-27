@@ -21,3 +21,6 @@ curr = Head
 while curr:
     print(curr)
     curr = curr.next
+
+# Searching
+data = 20
