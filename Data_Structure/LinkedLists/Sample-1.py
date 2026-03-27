@@ -1,5 +1,6 @@
-class SinglyNode:
-    def __init__(self, data, next=None):
+
+class SinglyNode: # creating blueprint
+    def __init__(self, data, next=None): # constructor
         self.data = data
         self.next = next
 
