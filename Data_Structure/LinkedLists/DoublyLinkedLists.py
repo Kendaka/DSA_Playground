@@ -22,10 +22,11 @@ C.next = D
 C.prev = B
 D.prev = C
 
-# Traversing
-curr = Head
+# Display
+def display(head):
+    curr = head
+    element = []
 
-while curr:
-    print(curr)
-    curr = curr.next
+    while curr:
+        element.append(curr)
     
