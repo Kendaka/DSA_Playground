@@ -28,5 +28,5 @@ def display(head):
     element = []
 
     while curr:
-        element.append(curr)
+        element.append(str(curr.val))
     
