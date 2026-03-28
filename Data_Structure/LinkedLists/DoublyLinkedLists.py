@@ -29,4 +29,8 @@ def display(head):
 
     while curr:
         element.append(str(curr.val))
-    
+        curr = curr.next
+
+    print(' <-> '.join(element))
+
+display(head)
