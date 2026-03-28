@@ -8,4 +8,8 @@ class DoublyNode:
         return str(self.val)
     
 Head = 0
+A = 10
+B = 20
+C = 30
+D = 40
     
