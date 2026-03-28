@@ -7,7 +7,7 @@ class DoublyNode:
     def __str__(self):
         return str(self.val)
     
-Head = DoublyNode(0)
+Head = DoublyNode(5)
 A = DoublyNode(10)
 B = DoublyNode(20)
 C = DoublyNode(30)
