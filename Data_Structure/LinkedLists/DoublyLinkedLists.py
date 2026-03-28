@@ -7,4 +7,5 @@ class DoublyNode:
     def __str__(self):
         return str(self.val)
     
+Head = 0
     
