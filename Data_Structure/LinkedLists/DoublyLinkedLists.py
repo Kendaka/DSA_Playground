@@ -21,4 +21,11 @@ B.prev = A
 C.next = D
 C.prev = B
 D.prev = C
+
+# Traversing
+curr = Head
+
+while curr:
+    print(curr)
+    curr = curr.next
     
