@@ -23,8 +23,8 @@ C.prev = B
 D.prev = C
 
 # Display
-def display(head):
-    curr = head
+def display(Head):
+    curr = Head
     element = []
 
     while curr:
@@ -33,4 +33,4 @@ def display(head):
 
     print(' <-> '.join(element))
 
-display(head)
+display(Head)
