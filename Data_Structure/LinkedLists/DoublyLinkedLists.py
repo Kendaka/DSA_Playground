@@ -33,4 +33,7 @@ def display(Head):
 
     print(' <-> '.join(element))
 
-display(Head)
+# Insterting at the beginning
+def insert_at_beginning(val):
+    val.next = Head
+    
