@@ -40,7 +40,6 @@ def insert_at_beginning(val):
     return new_node
 
 Head = insert_at_beginning(2)
-display(Head)
 
 # Inserting at the end
 def insert_at_end(val):
@@ -52,5 +51,5 @@ def insert_at_end(val):
     tail = DoublyNode(val, next=None, prev=curr)
     return tail
 
-tail = insert_at_end(90)
-display(tail)
+last_node = insert_at_end(90)
+display(Head)
