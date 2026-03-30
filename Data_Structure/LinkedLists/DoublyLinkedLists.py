@@ -46,7 +46,7 @@ display(Head)
 def insert_at_end(val):
 
     curr = Head
-    while curr:
+    while curr.next is not None:
         curr = curr.next
 
     tail = DoublyNode(val, next=None, prev=curr)
