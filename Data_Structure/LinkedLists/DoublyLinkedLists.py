@@ -38,3 +38,6 @@ def insert_at_beginning(val):
     new_node = DoublyNode(val, next=Head)
     Head.prev = new_node
     return new_node
+
+insert_at_beginning(3)
+display()
