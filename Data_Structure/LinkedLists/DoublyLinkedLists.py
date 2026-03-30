@@ -41,3 +41,16 @@ def insert_at_beginning(val):
 
 Head = insert_at_beginning(2)
 display(Head)
+
+# Inserting at the end
+def insert_at_end(val):
+
+    curr = Head
+    while curr:
+        curr = curr.next
+
+    tail = DoublyNode(val, next=None, prev=curr)
+    return tail
+
+tail = insert_at_end(90)
+display(tail)
