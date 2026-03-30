@@ -49,7 +49,7 @@ def insert_at_end(val):
     while curr.next is not None:
         curr = curr.next
 
-    tail = DoublyNode(val, prev=curr)
+    tail = DoublyNode(val, next=None, prev=curr)
     return tail
 
 tail = insert_at_end(90)
