@@ -39,5 +39,5 @@ def insert_at_beginning(val):
     Head.prev = new_node
     return new_node
 
-Head = insert_at_beginning(3)
+Head = insert_at_beginning(2)
 display(Head)
