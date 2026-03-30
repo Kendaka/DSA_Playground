@@ -35,5 +35,5 @@ def display(Head):
 
 # Insterting at the beginning
 def insert_at_beginning(val):
-    new_node = DoublyNode(val, next=Head, prev=None)
+    new_node = DoublyNode(val, next=Head)
     Head.prev = new_node
