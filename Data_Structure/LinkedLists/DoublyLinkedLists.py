@@ -8,7 +8,7 @@ class DoublyNode:
         return str(self.val)
     
 Head = DoublyNode(7)
-A = DoublyNode(10)
+A = DoublyNode(14)
 B = DoublyNode(20)
 C = DoublyNode(30)
 D = DoublyNode(40)
