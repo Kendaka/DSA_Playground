@@ -11,7 +11,7 @@ Head = DoublyNode(7)
 A = DoublyNode(14)
 B = DoublyNode(21)
 C = DoublyNode(28)
-D = DoublyNode(40)
+D = DoublyNode(35)
 
 Head.next = A
 A.next = B
