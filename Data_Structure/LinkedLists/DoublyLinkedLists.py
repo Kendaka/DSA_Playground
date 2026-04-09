@@ -10,7 +10,7 @@ class DoublyNode:
 Head = DoublyNode(7)
 A = DoublyNode(14)
 B = DoublyNode(21)
-C = DoublyNode(30)
+C = DoublyNode(28)
 D = DoublyNode(40)
 
 Head.next = A
