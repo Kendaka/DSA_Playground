@@ -9,7 +9,7 @@ class DoublyNode:
     
 Head = DoublyNode(4)
 A = DoublyNode(8)
-B = DoublyNode(21)
+B = DoublyNode(12)
 C = DoublyNode(28)
 D = DoublyNode(35)
 
