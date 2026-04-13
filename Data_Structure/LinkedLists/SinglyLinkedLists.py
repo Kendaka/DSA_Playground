@@ -14,6 +14,7 @@ C = SinglyNode(30)
 A.next = B
 B.next = C
 
+# Traversing
 curr = A
 
 while curr:
