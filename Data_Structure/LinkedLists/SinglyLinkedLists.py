@@ -18,7 +18,6 @@ C.next = D
 
 # Traversing
 def traversing(curr):
-    curr = A
     arr = []
 
     while curr:
