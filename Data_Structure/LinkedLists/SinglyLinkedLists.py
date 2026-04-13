@@ -2,8 +2,8 @@
 
 # Blueprint
 class SinglyNode:
-    def __init__(self, data, next=0):
+    def __init__(self, data, next=None):
         self.data = data
-        self.next = next
+        self.next = next    
 
     
