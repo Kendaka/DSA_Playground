@@ -13,3 +13,5 @@ C = SinglyNode(30)
 
 A.next = B
 B.next = C
+
+head = A
