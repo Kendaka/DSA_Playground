@@ -18,15 +18,17 @@ C.next = D
 
 # Traversing
 def traversing(curr):
-    arr = []
+    result = ""
 
     while curr:
-        arr.append(curr.data)
+        result += str(curr.data) + " → "
         curr = curr.next
 
-    return arr
+    result += "None"
+    return result
 
 printVal = traversing(A)
+print(printVal)
 
 # Inserting
 
