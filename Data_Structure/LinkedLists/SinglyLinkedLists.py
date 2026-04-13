@@ -19,7 +19,6 @@ def traversing(val):
     curr = A
     arr = []
 
-
     while curr:
         arr.append(curr.data)
         curr = curr.next
