@@ -6,6 +6,7 @@ class SinglyNode:
         self.data = data
         self.next = next    
 
+# Node creation
 A = SinglyNode(10)
 B = SinglyNode(20)
 C = SinglyNode(30)
