@@ -14,9 +14,7 @@ C = SinglyNode(30)
 A.next = B
 B.next = C
 
-head = A
-curr = 0
+curr = A
 
 while curr:
-    nodes = [] 
-    head = head + 1
+    
