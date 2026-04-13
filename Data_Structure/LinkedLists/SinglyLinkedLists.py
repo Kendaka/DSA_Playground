@@ -15,6 +15,8 @@ A.next = B
 B.next = C
 
 head = A
+curr = 0
 
-while head:
+while curr:
+    nodes = [] 
     head = head + 1
