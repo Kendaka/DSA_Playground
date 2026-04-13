@@ -18,7 +18,7 @@ B.next = C
 curr = A
 arr = []
 
-def traversing():
+def traversing(val):
     while curr:
         arr.append(curr.data)
         curr = curr.next
