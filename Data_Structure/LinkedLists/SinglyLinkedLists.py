@@ -16,7 +16,7 @@ A.next = B
 B.next = C
 C.next = D
 
-# Traversing
+# My Traversing
 def traversing(curr):
     arr = []
 
@@ -27,6 +27,18 @@ def traversing(curr):
     return arr
 
 printVal = traversing(A)
+
+# AI Traversing:
+
+# def traversing(curr):
+#     result = ""
+
+#     while curr:
+#         result += str(curr.data) + " → "
+#         curr = curr.next
+
+#     result += "None"
+#     return result
 
 # Inserting
 
