@@ -16,5 +16,5 @@ B.next = C
 
 head = A
 
-while head is not C:
+while head:
     head = head + 1
