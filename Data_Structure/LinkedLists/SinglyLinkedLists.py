@@ -17,7 +17,7 @@ B.next = C
 C.next = D
 
 # Traversing
-def traversing(val):
+def traversing(curr):
     curr = A
     arr = []
 
