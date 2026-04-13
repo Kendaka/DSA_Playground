@@ -19,3 +19,6 @@ curr = A
 while curr:
     arr = []
     arr.append[curr.data]
+    curr = curr.next
+
+
