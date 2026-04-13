@@ -24,4 +24,8 @@ def traversing(curr):
         arr.append(curr.data)
         curr = curr.next
 
+    return arr
+
+traversing(1)
+
 
