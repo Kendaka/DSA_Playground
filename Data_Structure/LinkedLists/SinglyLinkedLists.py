@@ -15,10 +15,11 @@ A.next = B
 B.next = C
 
 # Traversing
-curr = A
 arr = []
 
 def traversing(val):
+    curr = A
+
     while curr:
         arr.append(curr.data)
         curr = curr.next
