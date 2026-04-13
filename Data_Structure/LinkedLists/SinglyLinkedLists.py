@@ -17,4 +17,5 @@ B.next = C
 curr = A
 
 while curr:
-    
+    arr = []
+    arr.append[curr.data]
