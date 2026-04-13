@@ -20,7 +20,7 @@ arr = []
 
 def traversing():
     while curr:
-        arr.append[curr.data]
+        arr.append(curr.data)
         curr = curr.next
 
 
