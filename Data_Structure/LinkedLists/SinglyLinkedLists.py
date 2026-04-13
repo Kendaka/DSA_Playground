@@ -15,3 +15,6 @@ A.next = B
 B.next = C
 
 head = A
+
+while head is not C:
+    head = head + 1
