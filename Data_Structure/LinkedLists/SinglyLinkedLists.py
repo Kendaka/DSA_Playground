@@ -6,4 +6,9 @@ class SinglyNode:
         self.data = data
         self.next = next    
 
-    
+A = SinglyNode(10)
+B = SinglyNode(20)
+C = SinglyNode(30)
+
+A.next = B
+B.next = C
