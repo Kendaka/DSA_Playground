@@ -10,9 +10,11 @@ class SinglyNode:
 A = SinglyNode(10)
 B = SinglyNode(20)
 C = SinglyNode(30)
+D = SinglyNode(40)
 
 A.next = B
 B.next = C
+C.next = D
 
 # Traversing
 def traversing(val):
