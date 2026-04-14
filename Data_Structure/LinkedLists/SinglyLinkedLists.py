@@ -41,10 +41,11 @@ printVal = traversing(A)
 #     return result
 
 # Inserting
+
 def insert_at_beginning(val):
-    
-    result = ""
     val.next = head
+
+
     
 
 
