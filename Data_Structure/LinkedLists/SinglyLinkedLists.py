@@ -8,8 +8,8 @@ class SinglyNode:
 
 # Node creation
 head = SinglyNode(10)
-B = SinglyNode(20)
-C = SinglyNode(30)
+A = SinglyNode(20)
+B = SinglyNode(30)
 D = SinglyNode(40)
 
 head.next = B
