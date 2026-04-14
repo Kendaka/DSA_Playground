@@ -43,6 +43,8 @@ printVal = traversing(A)
 # Inserting
 def insert_at_beginning(curr):
     curr.next = head
+    head = curr
+    return curr
     
 
 
