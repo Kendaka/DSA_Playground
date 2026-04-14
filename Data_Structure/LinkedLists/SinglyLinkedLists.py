@@ -10,11 +10,11 @@ class SinglyNode:
 head = SinglyNode(10)
 A = SinglyNode(20)
 B = SinglyNode(30)
-D = SinglyNode(40)
+C = SinglyNode(40)
 
-head.next = B
+head.next = A
+A.next = B
 B.next = C
-C.next = D
 
 # My Traversing
 def traversing(curr):
