@@ -7,7 +7,7 @@ class SinglyNode:
         self.next = next    
 
 # Node creation
-A = SinglyNode(10)
+head = SinglyNode(10)
 B = SinglyNode(20)
 C = SinglyNode(30)
 D = SinglyNode(40)
@@ -41,4 +41,7 @@ printVal = traversing(A)
 #     return result
 
 # Inserting
+def insert_at_beginning(curr):
+    curr.next
+
 
