@@ -46,6 +46,7 @@ def insert_at_beginning(val):
     val.next = head
 
 
+print_head = insert_at_beginning()
     
 
 
