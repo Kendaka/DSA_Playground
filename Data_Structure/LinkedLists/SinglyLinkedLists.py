@@ -49,7 +49,7 @@ def insert_at_beginning(val):
 new_head = insert_at_beginning(2)
 printVal = traversing(new_head)
 
-# AI Insertiong
+# AI Insertion
 # def insert_at_beginning(head, val):
 #     new_node = SinglyNode(val)
 #     new_node.next = head
