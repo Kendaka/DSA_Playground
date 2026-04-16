@@ -60,9 +60,10 @@ printVal = traversing(new_head)
 
 
 # Middle Insertion
-def insert_at_middle(ins_point):
+def insert_at_middle(head, A, value):
     return
 
     
 
-
+# End Instertion
+# Searching
