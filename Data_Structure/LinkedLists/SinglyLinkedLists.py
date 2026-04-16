@@ -41,7 +41,7 @@ print(printVal)
 #     result += "None"
 #     return result
 
-# Inserting
+# My Inserting At Beginning
 
 def insert_at_beginning(val):
     new_node = SinglyNode(val)
