@@ -61,7 +61,11 @@ printVal = traversing(new_head)
 
 # Middle Insertion
 def insert_at_middle(head, A, value):
-    return
+    arr = []
+    new_node = SinglyNode(23)
+
+    
+
 
     
 
