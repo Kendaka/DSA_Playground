@@ -63,13 +63,13 @@ def insert_at_middle(curr, target, value):
     while curr:
         if curr.next == target:
             curr.next = new_node
-            new_node.next = target.next
+            new_node.next = target
 
         curr = curr.next
-new_head = insert_at_beginning(2)
-middle_val = insert_at_middle(new_head, A, 23)    
-print(middle_val)
 
+new_head = insert_at_beginning(2)
+new_val = insert_at_middle(new_head, A, 23)    
+traverse = traversing(new_head)
 
 
     
