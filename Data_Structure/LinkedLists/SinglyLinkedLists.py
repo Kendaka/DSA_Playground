@@ -57,7 +57,7 @@ def insert_at_beginning(val):
 
 
 # Middle Insertion
-def insert_at_middle(head, A, value):
+def insert_at_middle(head, target, value):
     arr = []
     new_node = SinglyNode(value)
 
