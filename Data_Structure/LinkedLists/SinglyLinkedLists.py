@@ -46,6 +46,7 @@ print(printVal)
 def insert_at_beginning(val):
     new_node = SinglyNode(val)
     new_node.next = head
+    return new_node
 
 
 print_head = insert_at_beginning(2)
