@@ -44,7 +44,7 @@ print(printVal)
 # Inserting
 
 def insert_at_beginning(val):
-    new_node = SinglyNode(new_node)
+    new_node = SinglyNode(val)
     new_node.next = head
 
 
