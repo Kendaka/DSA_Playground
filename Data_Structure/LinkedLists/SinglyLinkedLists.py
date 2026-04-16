@@ -27,6 +27,7 @@ def traversing(curr):
     return arr
 
 printVal = traversing(A)
+print(printVal)
 
 # AI Traversing:
 
