@@ -43,7 +43,7 @@ print(printVal)
 
 # Inserting
 
-def insert_at_beginning(new_node):
+def insert_at_beginning(val):
     new_node = SinglyNode(new_node)
     new_node.next = head
 
