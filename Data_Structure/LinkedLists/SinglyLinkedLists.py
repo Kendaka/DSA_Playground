@@ -42,7 +42,7 @@ printVal = traversing(A)
 
 # Inserting
 
-def insert_at_beginning(val):
+def insert_at_beginning(new_node):
     val = head
 
 
