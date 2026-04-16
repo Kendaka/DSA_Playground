@@ -49,6 +49,7 @@ def insert_at_beginning(val):
 print_new_head = insert_at_beginning(2)
 print_new_head.next = head
 printVal = traversing(print_new_head)
+print(printVal)
 
     
 
