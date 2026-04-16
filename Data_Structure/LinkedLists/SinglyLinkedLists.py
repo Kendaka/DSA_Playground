@@ -64,6 +64,7 @@ def insert_at_middle(curr, target, value):
         if curr.next == target:
             curr.next = new_node
             new_node.next = target
+            break
 
         curr = curr.next
     
