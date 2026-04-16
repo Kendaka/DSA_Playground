@@ -67,6 +67,14 @@ def insert_at_middle(head, target, value):
             target.next = new_node
         arr.append(head)
         head = head.next
+    else:
+        print("Error")
+
+    return arr
+
+new_head = insert_at_beginning(2)
+middle_val = insert_at_middle(new_head, B, 23)    
+print(middle_val)
 
 
 
