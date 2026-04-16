@@ -73,7 +73,7 @@ def insert_at_middle(head, target, value):
     return arr
 
 new_head = insert_at_beginning(2)
-middle_val = insert_at_middle(new_head, B, 23)    
+middle_val = insert_at_middle(new_head, A, 23)    
 print(middle_val)
 
 
