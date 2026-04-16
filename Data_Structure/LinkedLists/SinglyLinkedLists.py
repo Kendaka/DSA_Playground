@@ -67,8 +67,6 @@ def insert_at_middle(head, target, value):
             target.next = new_node
         arr.append(head.data)
         head = head.next
-    else:
-        print("Error")
 
     return arr
 
