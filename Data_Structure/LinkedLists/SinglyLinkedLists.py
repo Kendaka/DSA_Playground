@@ -49,7 +49,7 @@ def insert_at_beginning(val):
     return new_node
 
 
-insert_at_beginning(2)
+print_new_head = insert_at_beginning(2)
 
     
 
