@@ -46,7 +46,7 @@ def insert_at_beginning(new_node):
     new_node = SinglyNode(new_node)
 
 
-print_head = insert_at_beginning()
+print_head = insert_at_beginning(10)
     
 
 
