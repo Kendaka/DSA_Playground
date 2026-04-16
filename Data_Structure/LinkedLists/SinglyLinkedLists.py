@@ -59,8 +59,10 @@ def insert_at_beginning(val):
 # Middle Insertion
 def insert_at_middle(head, A, value):
     arr = []
-    new_node = SinglyNode(23)
+    new_node = SinglyNode(value)
 
+    while head:
+        arr.append()
 
 
 
