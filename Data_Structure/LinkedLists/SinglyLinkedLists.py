@@ -43,7 +43,7 @@ printVal = traversing(A)
 # Inserting
 
 def insert_at_beginning(new_node):
-    val = head
+    new_node = SinglyNode(new_node)
 
 
 print_head = insert_at_beginning()
