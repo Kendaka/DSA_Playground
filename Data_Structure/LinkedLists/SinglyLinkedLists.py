@@ -65,7 +65,7 @@ def insert_at_middle(head, target, value):
         if head.next == target:
             new_node.next = target.next
             target.next = new_node
-        arr.append(head)
+        arr.append(head.data)
         head = head.next
     else:
         print("Error")
