@@ -65,11 +65,7 @@ def insert_at_middle(curr, target, value):
             curr.next = new_node
             new_node.next = target.next
 
-        cur += curr.next    
-
-
-    
-
+        curr = curr.next
 new_head = insert_at_beginning(2)
 middle_val = insert_at_middle(new_head, A, 23)    
 print(middle_val)
