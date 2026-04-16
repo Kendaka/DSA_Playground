@@ -62,6 +62,9 @@ def insert_at_middle(head, target, value):
     new_node = SinglyNode(value)
 
     while head:
+        if head.next == target:
+            new_node.next = target.next
+            target.next = new_node
         arr.append(head)
         head = head.next
 
