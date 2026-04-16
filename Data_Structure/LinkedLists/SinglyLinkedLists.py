@@ -48,7 +48,8 @@ def insert_at_beginning(new_node):
     new_node.next = head
 
 
-print_head = insert_at_beginning(10)
+print_head = insert_at_beginning(2)
+
     
 
 
