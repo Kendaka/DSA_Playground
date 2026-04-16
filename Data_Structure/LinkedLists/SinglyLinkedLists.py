@@ -57,18 +57,18 @@ def insert_at_beginning(val):
 
 
 # Middle Insertion
-def insert_at_middle(head, target, value):
-    arr = []
+def insert_at_middle(curr, target, value):
     new_node = SinglyNode(value)
 
-    while head:
-        if head.next == target:
+    while curr:
+        if curr.next == target:
+            curr.next = new_node
             new_node.next = target.next
-            target.next = new_node
-        arr.append(head.data)
-        head = head.next
 
-    return arr
+        cur += curr.next    
+
+
+    
 
 new_head = insert_at_beginning(2)
 middle_val = insert_at_middle(new_head, A, 23)    
