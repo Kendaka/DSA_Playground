@@ -46,9 +46,6 @@ def insert_at_beginning(val):
     return new_node
 
 
-new_head = insert_at_beginning(2)
-printVal = traversing(new_head)
-
 # AI Beginning Insertion
 # def insert_at_beginning(head, val):
 #     new_node = SinglyNode(val)
@@ -64,7 +61,7 @@ def insert_at_middle(head, A, value):
     arr = []
     new_node = SinglyNode(23)
 
-    
+
 
 
     
