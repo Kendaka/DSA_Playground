@@ -46,8 +46,8 @@ def insert_at_beginning(val):
     return new_node
 
 
-print_new_head = insert_at_beginning(2)
-printVal = traversing(print_new_head)
+new_head = insert_at_beginning(2)
+printVal = traversing(new_head)
 print(printVal)
 
     
