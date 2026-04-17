@@ -74,7 +74,12 @@ head = insert_after(head, 30, 23)
     
 # End Instertion
 def insert_last(head, value):
-    pass
+    curr = head
+
+    while curr.next is not None:
+        curr = curr.next
+
+    new_node = SinglyNode(77)
 
 
 # Searching
