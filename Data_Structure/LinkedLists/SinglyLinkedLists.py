@@ -83,10 +83,9 @@ def insert_last(head, value):
     curr.next = new_node
     new_node.next = None
 
-    return new_node
+    return head
 
 tail = insert_last(head, 77)
-print(tail)
-
+print(head)
 
 # Searching
