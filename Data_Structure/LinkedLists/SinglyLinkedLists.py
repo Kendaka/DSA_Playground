@@ -56,22 +56,21 @@ def insert_at_beginning(val):
 # print(traversing(head))
 
 
-# Middle Insertion
-def insert_at_middle(curr, target, value):
-    new_node = SinglyNode(value)
+# Insertion
+def insert_after(head, target_value, value):
+    curr = head
 
     while curr:
-        if curr.next == target:
+        if curr.data == target_value:
+            new_node = SinglyNode(value)
+            new_node.next = curr.next
             curr.next = new_node
-            new_node.next = target
-            break
-
+            return head 
         curr = curr.next
-    
-new_head = insert_at_beginning(2)
-new_val = insert_at_middle(new_head, B, 23)    
-traverse = traversing(new_head)
-print(traverse)
+
+    return head
+
+head = insert_after(head, 30, 23)
     
 # End Instertion
 # Searching
