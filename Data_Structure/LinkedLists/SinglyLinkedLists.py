@@ -79,7 +79,14 @@ def insert_last(head, value):
     while curr.next is not None:
         curr = curr.next
 
-    new_node = SinglyNode(77)
+    new_node = SinglyNode(value)
+    curr.next = new_node
+    new_node.next = None
+
+    return new_node
+
+tail = insert_last(head, 77)
+print(tail)
 
 
 # Searching
