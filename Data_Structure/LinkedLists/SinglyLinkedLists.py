@@ -87,7 +87,6 @@ def insert_last(head, value):
 
     return head
 
-head = insert_last(head, 77)
-print(head)
-
+insert_last(head, 77)
+print(traversing(head))
 # Searching
