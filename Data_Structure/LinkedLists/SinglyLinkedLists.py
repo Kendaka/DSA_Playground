@@ -73,4 +73,8 @@ def insert_after(head, target_value, value):
 head = insert_after(head, 30, 23)
     
 # End Instertion
+def insert_last(head, value):
+    pass
+
+
 # Searching
