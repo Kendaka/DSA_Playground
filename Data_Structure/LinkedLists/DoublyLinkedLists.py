@@ -1,3 +1,9 @@
 # Doubly Linked Lists
 
-# Double Node
+# Doubly Node
+
+class DoublyNode:
+    def __init__(self, data, prev, next=None):
+        self.data = data
+        self.prev = prev
+        self.next = next
