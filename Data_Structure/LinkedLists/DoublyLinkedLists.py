@@ -9,3 +9,5 @@ class DoublyNode:
         self.next = next
 # Creating Nodes 
 head = (5)
+A = (10)
+B = (15)
