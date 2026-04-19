@@ -91,3 +91,15 @@ insert_last(head, 77)
 print(traversing(head))
 
 # Searching
+
+def search(head, target):
+    curr = head
+
+    while curr:
+        if target == curr.data:
+            return True
+        curr = curr.next
+
+    return False
+
+search(head, 10)
