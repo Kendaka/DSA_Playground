@@ -102,4 +102,4 @@ def search(head, target):
 
     return False
 
-search(head, 10)
+print(search(head, 10))
