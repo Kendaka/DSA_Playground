@@ -82,7 +82,7 @@ def insert_last(head, value):
         if head == None:
             return head
 
-    new_node = SinglyNode(value)
+    new_node = SinglyNode(value)    
     curr.next = new_node
 
     return head
