@@ -28,3 +28,9 @@ C.prev = B
 D.prev = C
 
 # Traversal
+
+def traversing(curr):
+    result = ""
+
+    while curr:
+        pass
