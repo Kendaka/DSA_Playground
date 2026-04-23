@@ -21,3 +21,5 @@ B.next = C
 C.next = D
 
 # Connecting Tail Pointers
+A.prev = head
+B.prev = A
