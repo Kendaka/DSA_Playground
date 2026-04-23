@@ -14,4 +14,7 @@ B = (15)
 C = (20)
 D = (25)
 
-# Connecting Nodes
+# Connecting Next Pointers
+head.next = A
+A.next = B
+B.next = C
