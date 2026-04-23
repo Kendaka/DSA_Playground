@@ -38,6 +38,7 @@ def traversing(curr):
 #     result += "None"
 #     return result
 
+
 # My Inserting At Beginning
 
 def insert_at_beginning(val):
