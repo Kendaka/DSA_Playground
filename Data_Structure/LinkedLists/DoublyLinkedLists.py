@@ -18,3 +18,4 @@ D = (25)
 head.next = A
 A.next = B
 B.next = C
+C.next = D
