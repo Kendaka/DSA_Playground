@@ -7,6 +7,7 @@ class DoublyNode:
         self.data = data
         self.prev = prev
         self.next = next
+        
 # Creating Nodes 
 head = DoublyNode(5)
 A = DoublyNode(10)
