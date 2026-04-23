@@ -29,7 +29,7 @@ D.prev = C
 
 # Traversal
 
-def traversing(curr):
+def traversingForward(curr):
     result = ""
 
     while curr:
