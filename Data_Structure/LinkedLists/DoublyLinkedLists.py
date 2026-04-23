@@ -38,3 +38,16 @@ def traversingForward(curr):
 
     result += "None"
     return result
+
+def traversingBackward(curr):
+    result = ""
+    
+    while curr:
+        if curr.next == None:
+            result += str(curr.date + "->")
+            curr = curr.prev
+
+        result += "None"
+        return result
+    
+    
