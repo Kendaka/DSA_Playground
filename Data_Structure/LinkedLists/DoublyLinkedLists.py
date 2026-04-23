@@ -3,11 +3,11 @@
 # Doubly Node
 
 class DoublyNode:
-    def __init__(self, data, next, prev=None):
+    def __init__(self, data, next=None, prev=None):
         self.data = data
         self.prev = prev
         self.next = next
-        
+
 # Creating Nodes 
 head = DoublyNode(5)
 A = DoublyNode(10)
