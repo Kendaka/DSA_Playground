@@ -8,11 +8,11 @@ class DoublyNode:
         self.prev = prev
         self.next = next
 # Creating Nodes 
-head = (5)
-A = (10)
-B = (15)
-C = (20)
-D = (25)
+head = DoublyNode(5)
+A = DoublyNode(10)
+B = DoublyNode(15)
+C = DoublyNode(20)
+D = DoublyNode(25)
 
 # Connecting Next Pointers
 head.next = A
