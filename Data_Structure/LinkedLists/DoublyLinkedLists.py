@@ -43,9 +43,8 @@ def traversingBackward(curr):
     result = ""
     
     while curr:
-        if curr.next == None:
-            result += str(curr.data) + "->"
-            curr = curr.prev
+        result += str(curr.data) + "->"
+        curr = curr.prev
 
     result += "None"
     return result
