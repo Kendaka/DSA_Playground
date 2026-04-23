@@ -47,6 +47,6 @@ def traversingBackward(curr):
             result += str(curr.data) + "->"
             curr = curr.prev
 
-        result += "None"
-        return result
+    result += "None"
+    return result
     
