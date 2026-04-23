@@ -33,4 +33,8 @@ def traversing(curr):
     result = ""
 
     while curr:
-        pass
+        result += str(curr.data + "->")
+        curr = curr.next
+
+    result += "None"
+    return result
