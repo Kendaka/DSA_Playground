@@ -26,3 +26,5 @@ A.prev = head
 B.prev = A
 C.prev = B
 D.prev = C
+
+# Traversal
