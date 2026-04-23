@@ -3,7 +3,7 @@
 # Doubly Node
 
 class DoublyNode:
-    def __init__(self, data, prev, next=None):
+    def __init__(self, data, next, prev=None):
         self.data = data
         self.prev = prev
         self.next = next
