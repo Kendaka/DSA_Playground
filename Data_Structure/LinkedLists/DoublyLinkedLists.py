@@ -49,3 +49,5 @@ def traversingBackward(curr):
     result += "None"
     return result
     
+
+print(traversingBackward(B))
