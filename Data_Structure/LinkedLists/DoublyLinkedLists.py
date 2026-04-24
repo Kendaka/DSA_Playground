@@ -28,7 +28,6 @@ C.prev = B
 D.prev = C
 
 # Traversal
-
 def traversingForward(curr):
     result = ""
 
