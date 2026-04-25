@@ -56,3 +56,5 @@ def insert_at_beginning(head, val):
     head.prev = new_node
     return new_node
 
+head = insert_at_beginning(head, 5)
+print(traversingForward(head, B))
