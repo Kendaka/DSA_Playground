@@ -27,7 +27,6 @@ def traversing(curr):
     return arr
 
 # My Inserting At Beginning
-
 def insert_at_beginning(val):
     new_node = SinglyNode(val)
     new_node.next = head
