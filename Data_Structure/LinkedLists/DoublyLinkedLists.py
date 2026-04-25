@@ -53,6 +53,8 @@ def traversingBackward(curr):
 def insert_at_beginning(head, val):
     new_node = DoublyNode(val)
     new_node.next = head
+    if head == None:
+        return new_node
     head.prev = new_node
     return new_node
 
