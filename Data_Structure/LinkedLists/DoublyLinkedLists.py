@@ -50,7 +50,7 @@ def traversingBackward(curr):
     
 
 # Beginning Insertion
-def insert_at_beginning(head, val):
+def insert_at_beginning(val):
     new_node = DoublyNode(val)
     new_node.next = head
     head.prev = new_node
