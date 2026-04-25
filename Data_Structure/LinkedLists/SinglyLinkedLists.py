@@ -26,19 +26,6 @@ def traversing(curr):
 
     return arr
 
-# AI Traversing:
-
-# def traversing(curr):
-#     result = ""
-
-#     while curr:
-#         result += str(curr.data) + " → "
-#         curr = curr.next
-
-#     result += "None"
-#     return result
-
-
 # My Inserting At Beginning
 
 def insert_at_beginning(val):
