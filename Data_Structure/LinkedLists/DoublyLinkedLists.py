@@ -73,11 +73,11 @@ def insert_at_beginning(head, val):
 def insert_after(head, target_val, value):
     curr = head
 
+    if head is None:
+        return new_node
+
+
     while curr:
-
-        if head is None:
-            return new_node
-
         if curr.data == target_val:
             new_node = DoublyNode(value)
             new_node.next = curr.next
