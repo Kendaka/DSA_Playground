@@ -80,4 +80,8 @@ def insert_after(head, target_val, value):
             curr.next = new_node
             new_node.prev = curr
             return head
+        
+        curr = curr.next
+    return head
+
             
