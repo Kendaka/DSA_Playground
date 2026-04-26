@@ -76,3 +76,4 @@ def insert_after(head, target_val, value):
     while curr:
         if curr.data == target_val:
             new_node = DoublyNode(value)
+            
