@@ -52,11 +52,21 @@ def traversingBackward(curr):
 # Beginning Insertion
 def insert_at_beginning(head, val):
     new_node = DoublyNode(val)
-    new_node.next = head
-    if head == None:
+
+    # 1. empty list
+    if head is None:
         return new_node
-    head.prev = new_node
-    return new_node
+
+    # 2. go to tail
+    curr = head
+    while curr.next:
+        curr = curr.next
+
+    # 3. connect
+    curr.next = new_node
+    new_node.prev = curr
+
+    return head
 
 head = insert_at_beginning(head, 4)
 print(traversingForward(head))
