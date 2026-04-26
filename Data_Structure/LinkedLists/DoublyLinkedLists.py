@@ -79,10 +79,12 @@ def insert_after(head, target_val, value):
     curr = head
     while curr:
         if curr.data == target_val:
-
             new_node.next = curr.next
+            temp = curr.next
             curr.next = new_node
+            temp.prev = new_node
             new_node.prev = curr
+
             return head
         
         curr = curr.next
