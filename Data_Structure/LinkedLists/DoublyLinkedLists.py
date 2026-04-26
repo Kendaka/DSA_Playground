@@ -70,3 +70,9 @@ def insert_at_beginning(head, val):
 
 
 # Middle Insertion
+def insert_after(head, target_val, value):
+    curr = head
+
+    while curr:
+        if curr.data == target_val:
+            new_node = DoublyNode(value)
