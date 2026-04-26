@@ -78,6 +78,7 @@ def insert_after(head, target_val, value):
             new_node = DoublyNode(value)
             new_node.next = curr.next
             curr.next = new_node
+            new_node.next.prev = new_node
             new_node.prev = curr
             return head
         
