@@ -71,24 +71,32 @@ def insert_at_beginning(head, val):
 
 # Middle Insertion
 def insert_after(head, target_val, value):
-    new_node = DoublyNode(value)
-
     if head is None:
-        return new_node
+        return DoublyNode(value)
 
     curr = head
+
     while curr:
         if curr.data == target_val:
-            new_node.next = curr.next
-            temp = curr.next
+            new_node = DoublyNode(value)
 
+            temp = curr.next  # store right side node
+
+            # link left → new
             curr.next = new_node
             new_node.prev = curr
 
-            temp.prev = new_node
+            # link new → right
+            new_node.next = temp
+
+            # fix right side back-link (ONLY if it exists)
+            if temp:
+                temp.prev = new_node
+
             return head
-        
+
         curr = curr.next
+
     return head
 
             
