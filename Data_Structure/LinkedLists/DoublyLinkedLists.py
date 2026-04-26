@@ -68,5 +68,5 @@ def insert_at_beginning(head, val):
 
     return head
 
-head = insert_at_beginning(head, 4)
-print(traversingForward(head))
+
+# Middle Insertion
