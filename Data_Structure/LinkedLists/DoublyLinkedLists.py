@@ -99,4 +99,31 @@ def insert_after(head, target_val, value):
 
     return head
 
-            
+
+# Deletion
+
+def delete_node(head, target_val):
+    if head is None:
+        return None
+
+    curr = head
+
+    while curr:
+        if curr.data == target_val:
+
+            if curr.prev is None:
+                head = curr.next
+                if head:
+                    head.prev = None
+                return head
+
+            if curr.next:
+                curr.next.prev = curr.prev
+
+            curr.prev.next = curr.next
+
+            return head
+
+        curr = curr.next
+
+    return head
