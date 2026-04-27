@@ -101,7 +101,6 @@ def insert_after(head, target_val, value):
 
 
 # Deletion
-
 def delete_node(head, target_val):
     if head is None:
         return None
