@@ -97,7 +97,7 @@ def insert_after(head, target_val, value):
 
         curr = curr.next
 
-    return head
+    return head 
 
 # Deletion
 def delete_node(head, target_val):
