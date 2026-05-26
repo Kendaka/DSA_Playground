@@ -115,7 +115,7 @@ def delete_node(head, target_val):
                     head.prev = None
                 return head
 
-            if curr.next:
+            if curr.next: # head
                 curr.next.prev = curr.prev
 
             curr.prev.next = curr.next
