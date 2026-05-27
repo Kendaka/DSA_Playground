@@ -15,7 +15,7 @@ B = DoublyNode(15)
 C = DoublyNode(20)
 D = DoublyNode(25)
 
-# Connecting Next Pointer
+# Connecting Next Pointers
 head.next = A
 A.next = B
 B.next = C
