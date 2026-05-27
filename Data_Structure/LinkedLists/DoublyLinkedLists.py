@@ -80,7 +80,7 @@ def insert_after(head, target_val, value):
         if curr.data == target_val:
             new_node = DoublyNode(value)
 
-            temp = curr.next  # store right side node
+            temp = curr.next  # store right side nod
 
             # link left → new
             curr.next = new_node
