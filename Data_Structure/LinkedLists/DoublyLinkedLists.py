@@ -1,5 +1,6 @@
 # Doubly Linked Lists
 
+
 # Doubly Node
 class DoublyNode:
     def __init__(self, data, next=None, prev=None):
