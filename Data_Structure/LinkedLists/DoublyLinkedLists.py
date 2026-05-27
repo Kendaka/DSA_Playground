@@ -69,7 +69,7 @@ def insert_at_beginning(head, val):
     return head
 
 
-# Middle Insertion
+# Middle Node Insertion 
 def insert_after(head, target_val, value):
     if head is None:
         return DoublyNode(value)
