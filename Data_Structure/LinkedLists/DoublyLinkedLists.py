@@ -21,7 +21,7 @@ A.next = B
 B.next = C
 C.next = D
 
-# Connecting Tail Pointer
+# Connecting Tail Pointers
 A.prev = head
 B.prev = A
 C.prev = B
