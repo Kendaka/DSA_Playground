@@ -86,7 +86,7 @@ def insert_after(head, target_val, value):
             curr.next = new_node
             new_node.prev = curr
 
-            # link new → right
+            # link new to right
             new_node.next = temp
 
             # fix right side back-link (ONLY if it exists)
