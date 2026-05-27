@@ -1,0 +1,3 @@
+# Hashset
+
+s = set()
