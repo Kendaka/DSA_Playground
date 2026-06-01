@@ -16,3 +16,4 @@ else:
 
 # Removing item from the set
 s.remove(3)
+print(s)
