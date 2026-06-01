@@ -17,7 +17,8 @@ else:
 # Removing item from the set
 s.remove(3)
 
+# Set construction - O(s) - S is the lenght of the string
 # Checking if the data exixst in a long string
 string = 'aaaabbbbccccccddddeeee'
-sett = set(string) # Set construction - O(s) - S is the lenght of the string
+sett = set(string) 
 print(sett)
