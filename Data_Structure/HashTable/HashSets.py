@@ -8,9 +8,6 @@ s.add(1)
 s.add(2)
 s.add(3)
 
-print(s)
-
-
 # Lookup if item in Set - O(1)
 if 1 in s:
     print("Exists")
