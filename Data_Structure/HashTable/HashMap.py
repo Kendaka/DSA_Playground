@@ -15,3 +15,11 @@ print(d['Age'])
 # Loop over the key&value pairs of the dictionary: O(n)
 for key, val in d.items():
     print(f'Key {key}: Val {val}')
+
+# Defaultdict
+
+from collections import defaultdict
+
+default = defaultdict(int)
+
+default[2]
