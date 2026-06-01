@@ -22,7 +22,7 @@ from collections import defaultdict
 default = defaultdict(int)
 default[2]
 
-# Counter 
+# Counter Method
 from collections import Counter
 
 counter = Counter(string)
