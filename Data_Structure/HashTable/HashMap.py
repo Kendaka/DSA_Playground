@@ -11,3 +11,7 @@ if "Employee" in d:
 
 # Check the value corresponding to a key in the dictionary: O(1)
 print(d['Age'])
+
+# Loop over the key&value pairs of the dictionary: O(n)
+for key, val in d.items():
+    print(f'Key {key}: Val {val}')
