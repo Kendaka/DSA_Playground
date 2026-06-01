@@ -1,4 +1,5 @@
 # Hasmaps - Dictionaries
+string = 'aaaabbbbbccccdddeee'
 
 d = {"Employee": 1, "Age": 23, "Status Point": 3}
 
@@ -17,9 +18,12 @@ for key, val in d.items():
     print(f'Key {key}: Val {val}')
 
 # Defaultdict
-
 from collections import defaultdict
-
 default = defaultdict(int)
-
 default[2]
+
+# Counter 
+from collections import Counter
+
+counter = Counter(string)
+print(counter)
