@@ -8,3 +8,6 @@ d["arsh"] = 4
 # Lookup for presence key in dictionary: O(1)
 if "Employee" in d:
     print(True)
+
+# Check the value corresponding to a key in the dictionary: O(1)
+print(d['Age'])
