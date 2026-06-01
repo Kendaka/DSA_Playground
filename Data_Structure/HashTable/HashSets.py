@@ -13,3 +13,6 @@ if 1 in s:
     print("Exists")
 else:
     print("N/A")
+
+# Removing item from the set
+s.remove(3)
