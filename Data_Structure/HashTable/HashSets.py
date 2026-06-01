@@ -20,5 +20,4 @@ s.remove(3)
 # Checking if the data exixst in a long string
 string = 'aaaabbbbccccccddddeeee'
 sett = set(string) # Set construction - O(s) - S is the lenght of the string
-
-sett
+print(sett)
